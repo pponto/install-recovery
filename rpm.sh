@@ -60,6 +60,7 @@ git config --global alias.s status
 git config --global alias.ca "commit -a -m"
 git config --global alias.cm "commit -m"
 git config --global core.pager cat
+git config --global help.autocorrect 1
 
 # Blank Line
 blank_line
