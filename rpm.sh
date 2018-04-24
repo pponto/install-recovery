@@ -7,7 +7,7 @@ function blank_line {
 
 ## Variables
 RPM_SYSTEM="sudo dnf -y"
-INSTALL_SOFTWARES="lm_sensors npm firefox chromium htop screenfetch transmission util-linux-user unzip git"
+INSTALL_SOFTWARES="lm_sensors npm firefox chromium htop screenfetch transmission util-linux-user unzip git arc-theme vim"
 
 ## FEDORA
 # Start
@@ -54,7 +54,7 @@ blank_line
 echo "Git config" $'\n'
 git config --global user.name "$GIT_USERNAME"
 git config --global user.email "$GIT_EMAIL"
-git config --global core.editor vi
+git config --global core.editor vim
 git config --global alias.a add
 git config --global alias.s status
 git config --global alias.ca "commit -a -m"
