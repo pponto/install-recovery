@@ -7,7 +7,7 @@ function blank_line {
 
 ## Variables
 RPM_SYSTEM="sudo dnf -y"
-INSTALL_SOFTWARES="lm_sensors npm firefox chromium htop screenfetch transmission util-linux-user unzip git"
+INSTALL_SOFTWARES="lm_sensors npm firefox chromium htop screenfetch transmission util-linux-user unzip git arc-theme vim"
 
 ## FEDORA
 # Start
