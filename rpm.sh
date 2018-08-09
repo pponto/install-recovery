@@ -101,9 +101,9 @@ blank_line
 
 # Installing spaceship zsh theme
 echo "Installing spaceship zsh theme" $'\n'
-sudo -H npm install -g spaceship-prompt
-sudo ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-echo '!!! You need to set "ZSH_THEME="spaceship" in ~/.zshrc config file !!!' $'\n'
+npm install spaceship-prompt
+##sudo ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+##echo '!!! You need to set "ZSH_THEME="spaceship" in ~/.zshrc config file !!!' $'\n'
 read -p "Press enter to finish: "
 
 # Blank Line
