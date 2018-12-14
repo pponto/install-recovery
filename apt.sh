@@ -7,7 +7,7 @@ function blank_line {
 
 ## Variables
 SYSTEM="sudo apt -y"
-INSTALL_SOFTWARES="lm-sensors npm firefox chromium-browser htop neofetch kate okular ktorrent gwenview kcalc spectacle vlc ksysguard nodejs npm yakuake util-linux unzip ark git build-essential libpng-dev htop synaptic redshift zsh"
+INSTALL_SOFTWARES="lm-sensors npm firefox chromium-browser htop neofetch kate okular ktorrent gwenview kcalc spectacle vlc ksysguard nodejs npm yakuake util-linux unzip ark git build-essential libpng-dev htop synaptic redshift zsh unar filezilla"
 INSTALL_NPM="gulp eslint"
 
 ## FEDORA
